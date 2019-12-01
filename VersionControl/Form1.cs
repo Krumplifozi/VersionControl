@@ -25,5 +25,10 @@ namespace VersionControl
             listUsers.ValueMember = "ID";
             listUsers.DisplayMember = "FullName";
         }
+
+        private void btnIntoFile_Click(object sender, EventArgs e)
+        {
+            // kellene a SaveFileDialog, de arra sajnos nem emlékszem :(
+        }
     }
 }
